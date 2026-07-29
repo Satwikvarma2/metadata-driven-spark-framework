@@ -35,16 +35,7 @@ flowchart LR
 - Keep environment-specific values outside code and metadata examples.
 - Make retries idempotent at the output boundary.
 
-## Repository
 
-- [Before](docs/before.md): limitations of the single-source design.
-- [After](docs/after.md): the multi-source architecture and execution flow.
-- [Security](docs/security.md): publication and sanitization checklist.
-- [Diagram source](diagrams/multisource-pattern.mmd): editable Mermaid diagram.
-
-## Scope
-
-This case study explains an architectural pattern. It intentionally omits organization-specific implementation, deployment configuration, table names, SQL, storage paths, and performance measurements.
 
 
 
